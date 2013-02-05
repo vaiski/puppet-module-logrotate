@@ -1,0 +1,8 @@
+# This file is managed by Puppet.
+# Any changes made to this file directly will be overwritten.
+# Template: modules/logrotate/templates/logrotate.debian.erb
+
+<%= logfile %> {
+	<% options.each do |opt| -%> <%= opt %>
+	<% end -%>
+}
