@@ -10,7 +10,7 @@ Installation
 Clone this repo under your Puppet modules directory:
 
     cd /etc/puppet/modules
-    git clone git://github.com/vaiski/puppet-module-logrotate.git monit
+    git clone git://github.com/vaiski/puppet-module-logrotate.git logrotate
 
 
 Usage
@@ -32,7 +32,5 @@ Define a logrotation for a set of files:
 
 License
 -------
-
-Copyright (c) 2013 by Eemil Väisänen <eemil.vaisanen@iki.fi>.
 
 This module is released under MIT license (see LICENSE).
